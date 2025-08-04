@@ -11,7 +11,7 @@ const PieChart = ({ percentage = 80 }) => {
         data: [percentage, 100 - percentage],
         backgroundColor: ["#A7DED9", "#2B2B36"],
         borderWidth: 0,
-        cutout: "65%",
+        cutout: "50%",
         rotation: -90,
         circumference: 180,
       },

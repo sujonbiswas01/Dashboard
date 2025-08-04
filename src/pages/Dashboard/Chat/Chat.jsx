@@ -30,7 +30,7 @@ const options = {
       },
     },
     plugins: {
-      legend: { display: false},
+      legend: { display: true},
       tooltip: {
         enabled: true,
         callbacks: {
