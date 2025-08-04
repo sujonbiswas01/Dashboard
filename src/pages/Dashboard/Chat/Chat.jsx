@@ -9,7 +9,7 @@ const BarChart =()=>{
              label:"light section",
              data:[80,100,80,50,50,60],
              backgroundColor:"#A9DFD8",
-             borderRadius:10,
+             borderRadius:30,
              barThickness:25,
            },
            {
@@ -30,7 +30,7 @@ const options = {
       },
     },
     plugins: {
-      legend: { display: false },
+      legend: { display: false},
       tooltip: {
         enabled: true,
         callbacks: {

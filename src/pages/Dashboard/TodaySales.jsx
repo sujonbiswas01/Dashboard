@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentHeader from '../../components/ContentHeader'
 import { SaleData } from '../../data'
-import ChatGraph from './Chat/Chat'
+import BarChart from './Chat/Chat'
 import WrapperDiv from './WrapperDiv'
 const SalesDetails = () => {
   return (
@@ -31,7 +31,7 @@ const SaleChart =()=>{
         <div>
             <ContentHeader title="Level"/>
             <div className='w-full h-[120px]'>
-                <ChatGraph/>
+                <BarChart/>
             </div>
             <div className='flex justify-center w-full gap-20 lg:gap-30 items-center pt-4 mt-4'>
                 <button>volume</button>
